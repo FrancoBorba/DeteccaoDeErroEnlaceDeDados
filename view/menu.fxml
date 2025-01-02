@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.401" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerCapa">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1000.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/capaRede.png" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="codificacaoBinaria" arcHeight="5.0" arcWidth="5.0" fill="#ebedee" height="146.0" layoutX="389.0" layoutY="128.0" onMouseClicked="#codificacaoBinaria" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="205.0" />
+      <Rectangle fx:id="codificacaoManchester" arcHeight="5.0" arcWidth="5.0" fill="#ebedee" height="146.0" layoutX="389.0" layoutY="274.0" onMouseClicked="#codificacaoManchester" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="205.0" />
+      <Rectangle fx:id="codificacaoManchesterDiferencial" arcHeight="5.0" arcWidth="5.0" fill="#ebedee" height="146.0" layoutX="389.0" layoutY="420.0" onMouseClicked="#codificacaoManchesterDiferencial" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="205.0" />
+   </children>
+</AnchorPane>
